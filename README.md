@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hermes Dashboard 🚀
 
-## Getting Started
+**AI Agent Operating System — Modern Dashboard UI**
 
-First, run the development server:
+Built with [Next.js 16](https://nextjs.org) + [Shadcn UI](https://ui.shadcn.com) + [Tailwind CSS](https://tailwindcss.com).
+
+![Hermes Dashboard](public/next.svg)
+
+## ✨ Features
+
+- **Real-time Monitoring** — Memory usage, active agents, integration status
+- **Task Management** — View and manage recent AI agent tasks
+- **Quick Actions** — One-click access to common operations
+- **Dark Theme** — Modern dark UI with Tailwind CSS
+- **Responsive** — Works on desktop and mobile devices
+
+## 🛠️ Tech Stack
+
+| Tech | Purpose |
+|------|---------|
+| Next.js 16 | React framework (App Router + Turbopack) |
+| Shadcn UI | Component library (Radix primitives) |
+| Tailwind CSS | Utility-first styling |
+| TypeScript | Type safety |
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repo
+git clone https://github.com/oguzhanglotier/hermes-dashboard.git
+cd hermes-dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 🔧 Configuration
 
-To learn more about Next.js, take a look at the following resources:
+Edit `next.config.js` for build options and `components.json` for Shadcn UI settings.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MIT License — see [LICENSE](LICENSE) for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👤 Author
+
+**Oguzhan Tusen** — [@oguzhanglotier](https://github.com/oguzhanglotier)
